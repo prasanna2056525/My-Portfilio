@@ -1,0 +1,15 @@
+{
+ "name":"Your Name",
+ "title":"Data Scientist | AI Engineer",
+ "about":"I build intelligent systems using ML and AI.",
+ "skills":["Python","Machine Learning","Deep Learning","SQL","React"],
+ "projects":[
+  {"title":"Churn Model","description":"ML churn prediction","link":"#"},
+  {"title":"NLP Analyzer","description":"Transformer NLP system","link":"#"}
+ ],
+ "socials":{
+  "github":"https://github.com/",
+  "linkedin":"https://linkedin.com/",
+  "facebook":"https://facebook.com/"
+ }
+}

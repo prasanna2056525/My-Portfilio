@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{scroll-behavior:smooth;}
+
+body{
+ @apply bg-white text-black dark:bg-black dark:text-white;
+}
+
+.glass{
+ backdrop-filter:blur(12px);
+ background:rgba(255,255,255,0.05);
+}
+
+.cursor-glow{
+ position:fixed;
+ width:200px;
+ height:200px;
+ background:radial-gradient(circle,#3b82f6,transparent);
+ border-radius:50%;
+ filter:blur(80px);
+ pointer-events:none;
+}
